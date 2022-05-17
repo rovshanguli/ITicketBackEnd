@@ -1,0 +1,66 @@
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.deps.json
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.dll
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\bin\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.dll
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.dll
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.pdb
+C:\Users\hp\Desktop\Final Project\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CopyComplete
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.deps.json
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.dll
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.dll
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.pdb
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CopyComplete
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.dll
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\hp\Desktop\final-back-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.deps.json
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.pdb
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CopyComplete
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.runtimeconfig.json
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.genruntimeconfig.cache
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.deps.json
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.runtimeconfig.json
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.runtimeconfig.dev.json
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\bin\Debug\net5.0\DomainLayer.pdb
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.csproj.CopyComplete
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\ref\RepositoryLayer.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\RepositoryLayer\obj\Debug\net5.0\RepositoryLayer.genruntimeconfig.cache
