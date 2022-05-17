@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ServiceLayer.DTOs.Category;
+using ServiceLayer.DTOs.Hall;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +15,8 @@ namespace ServiceLayer.DTOs.Event
         public byte[] Image { get; set; }
         public DateTime Date { get; set; }
         public float Price { get; set; }
-        public int CategoryId { get; set; }
-        public int HallId { get; set; }
-     
+        public CategoryDto Category { get; set; }
+        public HallDto Hall { get; set; }
+
     }
 }
