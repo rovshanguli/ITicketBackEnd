@@ -50,8 +50,8 @@ C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\F
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\bin\Debug\net5.0\DomainLayer.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\bin\Debug\net5.0\RepositoryLayer.dll
-C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\bin\Debug\net5.0\DomainLayer.pdb
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\bin\Debug\net5.0\DomainLayer.pdb
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache

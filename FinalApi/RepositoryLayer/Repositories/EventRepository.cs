@@ -2,9 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Repositories.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace RepositoryLayer.Repositories
@@ -22,7 +19,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<Event> GetEventAsync(int id)
         {
-            var entity = await  entities.Include(m => m.Category).Include(m => m.Hall).FirstOrDefaultAsync(m => m.Id == id);
+            var entity = await entities.Include(m => m.Category).Include(m => m.Hall).FirstOrDefaultAsync(m => m.Id == id);
 
             if (entity is null) throw new NullReferenceException();
 

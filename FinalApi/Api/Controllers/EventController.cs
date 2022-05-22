@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ServiceLayer.DTOs.Event;
 using ServiceLayer.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Api.Controllers
@@ -18,9 +15,9 @@ namespace Api.Controllers
 
         [HttpPost]
         [Route("CreateEvent")]
-        public async Task<IActionResult> Create([FromBody] EventDto eventDto)
+        public async Task<IActionResult> Create([FromBody] EventCreateDto eventCreateDto)
         {
-            await _service.CreateAsync(eventDto);
+            await _service.CreateAsync(eventCreateDto);
             return Ok();
         }
         [HttpDelete]

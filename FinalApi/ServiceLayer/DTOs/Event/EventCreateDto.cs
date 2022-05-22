@@ -1,19 +1,16 @@
-﻿using DomainLayer.Common;
-using System;
+﻿using System;
 
-namespace DomainLayer.Entities
+namespace ServiceLayer.DTOs.Event
 {
-    public class Event : BaseEntity
+    public class EventCreateDto
     {
         public string Name { get; set; }
         public byte[] BackImage { get; set; }
         public byte[] Image { get; set; }
-        public byte[] DetailImage { get; set; }
+        public byte[] DetailImg { get; set; }
         public DateTime Date { get; set; }
         public float Price { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
         public int HallId { get; set; }
-        public Hall Hall { get; set; }
     }
 }

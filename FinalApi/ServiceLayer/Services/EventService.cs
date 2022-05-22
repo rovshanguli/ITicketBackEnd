@@ -3,10 +3,7 @@ using DomainLayer.Entities;
 using RepositoryLayer.Repositories.Interfaces;
 using ServiceLayer.DTOs.Event;
 using ServiceLayer.Services.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
@@ -20,9 +17,9 @@ namespace ServiceLayer.Services
             _repository = repository;
             _mapper = mapper;
         }
-        public async Task CreateAsync(EventDto eventDto)
+        public async Task CreateAsync(EventCreateDto eventCreateDto)
         {
-            var model = _mapper.Map<Event>(eventDto);
+            var model = _mapper.Map<Event>(eventCreateDto);
             await _repository.CreateAsync(model);
         }
 
@@ -42,7 +39,7 @@ namespace ServiceLayer.Services
         public async Task<EventDto> GetByIdAsync(int id)
         {
             var model = await _repository.GetEventAsync(id);
-            var res =  _mapper.Map<EventDto>(model);
+            var res = _mapper.Map<EventDto>(model);
             return res;
         }
 

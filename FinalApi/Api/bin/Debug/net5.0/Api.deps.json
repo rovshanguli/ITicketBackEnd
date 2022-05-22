@@ -1479,7 +1479,6 @@
       "ServiceLayer/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "DomainLayer": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "RepositoryLayer": "1.0.0"
         },

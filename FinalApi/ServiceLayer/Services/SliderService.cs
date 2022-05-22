@@ -3,15 +3,12 @@ using DomainLayer.Entities;
 using RepositoryLayer.Repositories.Interfaces;
 using ServiceLayer.DTOs.Slider;
 using ServiceLayer.Services.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
 {
-    public class SliderService:ISliderService
+    public class SliderService : ISliderService
     {
         private readonly ISliderRepository _repository;
         private readonly IMapper _mapper;
