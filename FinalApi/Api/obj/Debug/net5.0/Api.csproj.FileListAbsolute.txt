@@ -173,7 +173,6 @@ C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Micros
 C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -246,7 +245,6 @@ C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\F
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -290,3 +288,17 @@ C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\F
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\ref\Api.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.pdb
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.genruntimeconfig.cache
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hp\Desktop\Iticketback-end-iticket\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
