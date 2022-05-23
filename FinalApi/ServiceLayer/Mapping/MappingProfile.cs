@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DomainLayer.Entities;
+using ServiceLayer.DTOs.AppUser;
 using ServiceLayer.DTOs.Category;
 using ServiceLayer.DTOs.Event;
 using ServiceLayer.DTOs.Hall;
@@ -23,6 +24,7 @@ namespace ServiceLayer.Mapping
             CreateMap<Event, EventCreateDto>().ReverseMap();
             CreateMap<Seans, SeansDto>().ReverseMap();
             CreateMap<Seans, SeansEditDto>().ReverseMap();
+            CreateMap<AppUser, RegisterDto>().ReverseMap();
         }
     }
 }
