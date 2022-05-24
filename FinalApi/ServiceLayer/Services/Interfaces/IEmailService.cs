@@ -6,5 +6,6 @@ namespace ServiceLayer.Services.Interfaces
     public interface IEmailService
     {
         Task Register(RegisterDto registerDto);
+        Task ConfirmEmail(string userId, string token);
     }
 }

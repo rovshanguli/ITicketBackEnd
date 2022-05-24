@@ -46,6 +46,12 @@ namespace ServiceLayer.Services
             await _userManager.CreateAsync(user, registerDto.Password);
             await _emailService.Register(registerDto);
             await _userManager.AddToRoleAsync(user, "SuperAdmin");
+
+        }
+
+        public async Task ConfirmEmail(string userId, string token)
+        {
+             await _emailService.ConfirmEmail(userId,token);
         }
     }
 }

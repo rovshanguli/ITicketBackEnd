@@ -16,6 +16,7 @@ namespace ServiceLayer
             services.AddScoped<ISeansService, SeansService>();
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddHttpContextAccessor();
 
 
             return services;

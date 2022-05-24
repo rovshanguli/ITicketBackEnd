@@ -7,6 +7,6 @@ namespace ServiceLayer.Services.Interfaces
     {
         Task Regsiter(RegisterDto registerDto);
         Task<string> Login(LoginDto loginDto);
-
+        Task ConfirmEmail(string userId, string token);
     }
 }

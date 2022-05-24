@@ -23,11 +23,15 @@ namespace Api.Controllers
         public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
             await _service.Regsiter(registerDto);
-
             return Ok();
         }
 
-
+        [HttpPost]
+        [Route("ConfirmEmail")]
+        public async Task ConfirmEmail(string userId, string token)
+        {
+            await _service.ConfirmEmail(userId, token);
+        }
 
 
         [HttpPost]

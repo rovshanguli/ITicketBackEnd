@@ -304,3 +304,4 @@ C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\F
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\MailKit.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\MimeKit.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.MvcApplicationPartsAssemblyInfo.cs
