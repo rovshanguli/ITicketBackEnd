@@ -277,7 +277,6 @@ C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\F
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.AssemblyInfo.cs
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\staticwebassets\Api.StaticWebAssets.Manifest.cache
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\obj\Debug\net5.0\staticwebassets\Api.StaticWebAssets.xml
@@ -302,3 +301,6 @@ C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\F
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\MailKit.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\MimeKit.dll
+C:\Users\user\Desktop\FinalProjects\ITicket\ITicketBackEnd\Iticked-Backend-Api\FinalApi\Api\bin\Debug\net5.0\BouncyCastle.Crypto.dll

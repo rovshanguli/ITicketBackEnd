@@ -15,6 +15,7 @@ namespace ServiceLayer
             services.AddScoped<IEventService, EventService>();
             services.AddScoped<ISeansService, SeansService>();
             services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<IEmailService, EmailService>();
 
 
             return services;

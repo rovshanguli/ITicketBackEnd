@@ -3,10 +3,7 @@ using DomainLayer.Entities;
 using Microsoft.AspNetCore.Identity;
 using ServiceLayer.DTOs.AppUser;
 using ServiceLayer.Services.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
@@ -16,13 +13,16 @@ namespace ServiceLayer.Services
         private readonly UserManager<AppUser> _userManager;
         private readonly IMapper _mapper;
         private readonly ITokenService _tokenService;
+        private readonly IEmailService _emailService;
         public AccountService(UserManager<AppUser> userManager,
                                  IMapper mapper,
-                                 ITokenService tokenService)
+                                 ITokenService tokenService,
+                                 IEmailService emailService)
         {
             _mapper = mapper;
             _userManager = userManager;
             _tokenService = tokenService;
+            _emailService = emailService;
         }
 
         public async Task<string> Login(LoginDto loginDto)
@@ -42,11 +42,10 @@ namespace ServiceLayer.Services
 
         public async Task Regsiter(RegisterDto registerDto)
         {
-
             var user = _mapper.Map<AppUser>(registerDto);
             await _userManager.CreateAsync(user, registerDto.Password);
+            await _emailService.Register(registerDto);
             await _userManager.AddToRoleAsync(user, "SuperAdmin");
-            
         }
     }
 }
