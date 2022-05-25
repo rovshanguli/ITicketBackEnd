@@ -748,11 +748,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\Iticked-Backend-Api\\FinalApi\\DomainLayer\\DomainLayer.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\DomainLayer\\DomainLayer.csproj",
       "projectName": "DomainLayer",
-      "projectPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\Iticked-Backend-Api\\FinalApi\\DomainLayer\\DomainLayer.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\DomainLayer\\DomainLayer.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\Iticked-Backend-Api\\FinalApi\\DomainLayer\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\DomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

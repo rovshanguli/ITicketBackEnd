@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6PWkDqU+C/vi9zRFOfrJ5bowjjrCub2aQZGksypGkcIde/gaLDZhim7xElRvvlHqfutPTWMw9V5D76r90yyIBg==",
+  "dgSpecHash": "spd/nwt+zMc1nI/OpZ3uKjRDM+VsPL3oPJ6DAdehLFv2oKMjHnk7YWMFoPTOLAjnlehrmRB8BMMwiyeNQIYY1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\Iticked-Backend-Api\\FinalApi\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mailkit\\3.2.0\\mailkit.3.2.0.nupkg.sha512",

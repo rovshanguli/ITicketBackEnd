@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mbl7xi/8VLuU4EoLiAr0izwzW7we6mvs/Y39wchDUdZi9VUuM1XHmHZiVviCHcnncBkGJfkpStAiHO0Vi2j50A==",
+  "dgSpecHash": "J4rqgexk1VsT5bcNK1uosKYaEQRuHkaNMpuxzGheAPxisFOJMxWIZ0Vmd8r+xO/cPa6U+HqepmNlMiHuDRwAOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\Iticked-Backend-Api\\FinalApi\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

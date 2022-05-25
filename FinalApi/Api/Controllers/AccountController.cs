@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using DomainLayer.Entities;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ServiceLayer.DTOs.AppUser;
 using ServiceLayer.Services.Interfaces;
@@ -11,10 +13,15 @@ namespace Api.Controllers
     {
         private readonly IAccountService _service;
         private readonly IWebHostEnvironment _env;
-        public AccountController(IAccountService service, IWebHostEnvironment env)
+        private readonly UserManager<AppUser> _userManager;
+        private readonly IEmailService _emailService;
+        public AccountController(IAccountService service, IWebHostEnvironment env, UserManager<AppUser> userManager,IEmailService emailService)
         {
             _service = service;
             _env = env;
+            _userManager = userManager;
+            _emailService = emailService;
+
         }
 
 
@@ -22,11 +29,15 @@ namespace Api.Controllers
         [Route("Register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
-            await _service.Regsiter(registerDto);
+            await _service.Register(registerDto);
+            AppUser appUser = await _userManager.FindByEmailAsync(registerDto.Email);
+            var code = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
+            var link = Url.Action(nameof(ConfirmEmail), "Account", new { userId = appUser.Id, token = code }, Request.Scheme, Request.Host.ToString());
+            await _emailService.Register(registerDto, link);
             return Ok();
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("ConfirmEmail")]
         public async Task ConfirmEmail(string userId, string token)
         {

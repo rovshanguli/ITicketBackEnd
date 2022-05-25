@@ -5,7 +5,7 @@ namespace ServiceLayer.Services.Interfaces
 {
     public interface IAccountService
     {
-        Task Regsiter(RegisterDto registerDto);
+        Task Register(RegisterDto registerDto);
         Task<string> Login(LoginDto loginDto);
         Task ConfirmEmail(string userId, string token);
     }
