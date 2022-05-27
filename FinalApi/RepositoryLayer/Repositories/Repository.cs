@@ -31,7 +31,7 @@ namespace RepositoryLayer.Repositories
         {
             if (entity is null) throw new ArgumentNullException();
 
-            entities.Remove(entity);
+            entity.SoftDelete = true;
             await _context.SaveChangesAsync();
         }
 

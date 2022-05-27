@@ -37,7 +37,7 @@ namespace ServiceLayer.Services
            
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress("ITicket", "code.test.iticket@gmail.com"));
-            message.To.Add(new MailboxAddress(appUser.Name, appUser.Email));
+            message.To.Add(new MailboxAddress(appUser.FullName, appUser.Email));
             message.Subject = "Confirm Email";
             string emailbody = link;
             message.Body = new TextPart() { Text = emailbody };
