@@ -9,6 +9,7 @@ namespace ServiceLayer.Services.Interfaces
         Task CreateAsync(SeansDto seansDto);
 
         Task UpdateAsync(int id, SeansEditDto seans);
+        Task<SeansDto> GetAsync(int id);
         Task DeleteAsync(int id);
         Task<List<SeansDto>> GetAllAsync();
     }

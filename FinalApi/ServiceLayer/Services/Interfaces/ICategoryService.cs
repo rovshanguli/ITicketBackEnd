@@ -8,8 +8,9 @@ namespace ServiceLayer.Services.Interfaces
     {
         Task CreateAsync(CategoryDto categoryDto);
 
-        Task UpdateAsync(int id, CategoryEditDto category);
+        Task UpdateAsync(CategoryEditDto category);
         Task DeleteAsync(int id);
         Task<List<CategoryDto>> GetAllAsync();
+        Task<CategoryDto> GetAsync(int id);
     }
 }

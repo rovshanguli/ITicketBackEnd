@@ -49,5 +49,11 @@ namespace ServiceLayer.Services
 
             await _repository.UpdateAsync(entity);
         }
+        public async Task<HallDto> GetAsync(int id)
+        {
+            var model = await _repository.GetAsync(id);
+            var res = _mapper.Map<HallDto>(model);
+            return res;
+        }
     }
 }

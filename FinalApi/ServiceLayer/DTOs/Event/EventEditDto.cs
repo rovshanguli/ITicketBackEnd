@@ -4,6 +4,7 @@ namespace ServiceLayer.DTOs.Event
 {
     public class EventEditDto
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public byte[] BackImage { get; set; }
         public byte[] Image { get; set; }

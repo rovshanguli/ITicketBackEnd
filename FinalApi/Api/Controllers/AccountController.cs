@@ -15,7 +15,7 @@ namespace Api.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly UserManager<AppUser> _userManager;
         private readonly IEmailService _emailService;
-        public AccountController(IAccountService service, IWebHostEnvironment env, UserManager<AppUser> userManager,IEmailService emailService)
+        public AccountController(IAccountService service, IWebHostEnvironment env, UserManager<AppUser> userManager, IEmailService emailService)
         {
             _service = service;
             _env = env;

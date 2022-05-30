@@ -37,9 +37,16 @@ namespace ServiceLayer.Services
             return res;
         }
 
-        public async Task UpdateAsync(int id, CategoryEditDto category)
+        public async Task<CategoryDto> GetAsync(int id)
         {
-            var entity = await _repository.GetAsync(id);
+            var model = await _repository.GetAsync(id);
+            var res = _mapper.Map<CategoryDto>(model);
+            return res;
+        }
+
+        public async Task UpdateAsync(CategoryEditDto category)
+        {
+            var entity = await _repository.GetAsync(category.Id);
 
             _mapper.Map(category, entity);
 

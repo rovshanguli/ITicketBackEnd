@@ -2,7 +2,7 @@
 
 namespace RepositoryLayer.Migrations
 {
-    public partial class DeleteNameAndSurname : Migration
+    public partial class ChangeAppUserProps : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

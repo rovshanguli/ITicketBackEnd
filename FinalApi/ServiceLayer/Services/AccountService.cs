@@ -49,7 +49,7 @@ namespace ServiceLayer.Services
 
         public async Task ConfirmEmail(string userId, string token)
         {
-             await _emailService.ConfirmEmail(userId,token);
+            await _emailService.ConfirmEmail(userId, token);
         }
     }
 }

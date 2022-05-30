@@ -20,28 +20,33 @@ namespace Api.Controllers
             return Ok();
         }
         [HttpDelete]
-        [Route("DeleteCategory")]
-        public async Task<IActionResult> Delete(int id)
+        [Route("DeleteCategory/{id}")]
+        public async Task<IActionResult> Delete([FromRoute]int id)
         {
             await _service.DeleteAsync(id);
             return Ok();
         }
 
         [HttpPut]
-        [Route("UpdateCategory/{id}")]
-        public async Task<IActionResult> Update([FromRoute] int id, [FromBody] CategoryEditDto category)
+        [Route("Update")]
+        public async Task<IActionResult> Update([FromBody] CategoryEditDto category)
         {
-
-
-            await _service.UpdateAsync(id, category);
+            await _service.UpdateAsync(category);
             return Ok();
-
         }
         [HttpGet]
         [Route("GetAllCategories")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _service.GetAllAsync();
+            return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("GetById/{id}")]
+        public async Task<IActionResult> GetById([FromRoute]int id)
+        {
+            var result = await _service.GetAsync(id);
             return Ok(result);
         }
     }

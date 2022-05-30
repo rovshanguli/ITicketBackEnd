@@ -9,6 +9,7 @@ namespace ServiceLayer.Services.Interfaces
         Task CreateAsync(HallDto hallDto);
         Task<List<HallDto>> GetAllAsync();
         Task UpdateAsync(int id, HallEditDto hall);
+        Task<HallDto> GetAsync(int id);
         Task DeleteAsync(int id);
     }
 }

@@ -44,5 +44,11 @@ namespace ServiceLayer.Services
 
             await _repository.UpdateAsync(entity);
         }
+        public async Task<SeansDto> GetAsync(int id)
+        {
+            var model = await _repository.GetAsync(id);
+            var res = _mapper.Map<SeansDto>(model);
+            return res;
+        }
     }
 }

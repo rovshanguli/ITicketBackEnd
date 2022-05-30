@@ -10,8 +10,8 @@ using RepositoryLayer;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220526065659_DeleteNameAndSurname")]
-    partial class DeleteNameAndSurname
+    [Migration("20220529103425_ChangeAppUserProps")]
+    partial class ChangeAppUserProps
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

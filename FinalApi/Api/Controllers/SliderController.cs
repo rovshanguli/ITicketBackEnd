@@ -22,8 +22,8 @@ namespace Api.Controllers
         }
 
         [HttpDelete]
-        [Route("Delete")]
-        public async Task<IActionResult> Delete(int id)
+        [Route("Delete/{id}")]
+        public async Task<IActionResult> Delete([FromRoute]int id)
         {
             await _service.DeleteAsync(id);
 
@@ -37,6 +37,14 @@ namespace Api.Controllers
 
             await _service.UpdateAsync(id, slider);
             return Ok();
+        }
+
+        [HttpGet]
+        [Route("GetById/{id}")]
+        public async Task<IActionResult> GetById([FromRoute] int id)
+        {
+            var result = await _service.GetAsync(id);
+            return Ok(result);
         }
 
         [HttpGet]
