@@ -13,7 +13,9 @@ namespace ServiceLayer.DTOs.Event
         public DateTime Date { get; set; }
         public float Price { get; set; }
         public CategoryDto Category { get; set; }
+        public int HallID { get; set; }
         public HallDto Hall { get; set; }
+        public byte[] DetailImage { get; set; }
 
     }
 }
