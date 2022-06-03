@@ -58,5 +58,12 @@ namespace ServiceLayer.Services
             var res = _mapper.Map<EventDto>(model);
             return res;
         }
+
+        public async Task<List<EventDto>> GetByCateId(int id)
+        {
+            var model =  await _repository.FindAllAsync(m => m.CategoryId == id);
+            var res = _mapper.Map<List<EventDto>>(model);
+            return res;
+        }
     }
 }

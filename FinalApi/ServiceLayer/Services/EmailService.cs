@@ -44,7 +44,7 @@ namespace ServiceLayer.Services
 
             using var smtp = new SmtpClient();
             smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
-            smtp.Authenticate("code.test.iticket@gmail.com", "Asger54321");
+            smtp.Authenticate("code.test.iticket@gmail.com", "psutapkrmjbciuct");
             smtp.Send(message);
             smtp.Disconnect(true);
         }
