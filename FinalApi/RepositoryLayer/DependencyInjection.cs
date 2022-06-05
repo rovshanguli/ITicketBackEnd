@@ -14,6 +14,7 @@ namespace RepositoryLayer
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IEventRepository, EventRepository>();
             services.AddScoped<ISeansRepository, SeansRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
             return services;
         }

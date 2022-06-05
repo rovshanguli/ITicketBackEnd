@@ -15,8 +15,6 @@ namespace DomainLayer.Configurations
             builder.Property(m => m.Price).IsRequired();
             builder.Property(m => m.CategoryId).IsRequired();
             builder.Property(m => m.HallId).IsRequired();
-
-
         }
     }
 }

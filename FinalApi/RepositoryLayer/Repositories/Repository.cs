@@ -40,6 +40,7 @@ namespace RepositoryLayer.Repositories
             IEnumerable<T> datas = await entities.Where(predicate).ToListAsync();
 
             return datas;
+
         }
 
         public async Task<T> FindAsync(Expression<Func<T, bool>> predicate)

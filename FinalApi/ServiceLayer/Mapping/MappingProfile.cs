@@ -4,6 +4,7 @@ using ServiceLayer.DTOs.AppUser;
 using ServiceLayer.DTOs.Category;
 using ServiceLayer.DTOs.Event;
 using ServiceLayer.DTOs.Hall;
+using ServiceLayer.DTOs.Order;
 using ServiceLayer.DTOs.Seans;
 using ServiceLayer.DTOs.Slider;
 
@@ -25,7 +26,7 @@ namespace ServiceLayer.Mapping
             CreateMap<Seans, SeansDto>().ReverseMap();
             CreateMap<Seans, SeansEditDto>().ReverseMap();
             CreateMap<AppUser, RegisterDto>().ReverseMap();
-
+            CreateMap<Order, OrderDto>().ReverseMap();
         }
     }
 }

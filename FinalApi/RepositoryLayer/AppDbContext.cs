@@ -18,6 +18,7 @@ namespace RepositoryLayer
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new EventConfiguration());
             modelBuilder.ApplyConfiguration(new SeansConfiguration());
+            modelBuilder.ApplyConfiguration(new OrderConfiguration());
             base.OnModelCreating(modelBuilder);
         }
 

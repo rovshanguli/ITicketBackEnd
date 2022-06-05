@@ -33,7 +33,7 @@ namespace Api.Controllers
             AppUser appUser = await _userManager.FindByEmailAsync(registerDto.Email);
             var code = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
             var link = Url.Action(nameof(ConfirmEmail), "Account", new { userId = appUser.Id, token = code }, Request.Scheme, Request.Host.ToString());
-            await _emailService.Register(registerDto, link);
+            _emailService.Register(registerDto, link);
             return Ok();
         }
 
