@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using DomainLayer.Entities;
 using RepositoryLayer.Repositories.Interfaces;
+using ServiceLayer.DTOs.Event;
 using ServiceLayer.DTOs.Order;
 using ServiceLayer.Services.Interfaces;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
@@ -20,6 +22,12 @@ namespace ServiceLayer.Services
         {
             var model = _mapper.Map<Order>(orderDto);
             await _repository.CreateAsync(model);
+        }
+
+        public async Task<List<OrderDto>> GetAllAsync(int id)
+        {
+            var res = await _repository.FindAllAsync(m => m.EventId == id);
+            return _mapper.Map<List<OrderDto>>(res);
         }
     }
 }

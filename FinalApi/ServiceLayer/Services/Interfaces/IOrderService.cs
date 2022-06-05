@@ -10,5 +10,6 @@ namespace ServiceLayer.Services.Interfaces
     public interface IOrderService
     {
         Task CreateAsync(OrderDto orderDto);
+        Task<List<OrderDto>> GetAllAsync(int id);
     }
 }

@@ -23,5 +23,13 @@ namespace Api.Controllers
             await _service.CreateAsync(orderDto);
             return Ok();
         }
+
+        [HttpGet]
+        [Route("GetByEventId/{id}")]
+        public async Task<IActionResult> GetByEventId([FromRoute] int id)
+        {
+            var res = await _service.GetAllAsync(id);
+            return Ok(res);
+        }
     }
 }
