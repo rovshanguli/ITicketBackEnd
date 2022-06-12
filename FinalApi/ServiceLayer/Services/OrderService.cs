@@ -20,8 +20,16 @@ namespace ServiceLayer.Services
         }
         public async Task CreateAsync(OrderDto orderDto)
         {
+           
+                var model = _mapper.Map<Order>(orderDto);
+                await _repository.CreateAsync(model);
+            
+        }
+
+        public async Task Delete(OrderDto orderDto)
+        {
             var model = _mapper.Map<Order>(orderDto);
-            await _repository.CreateAsync(model);
+           await _repository.DeleteAsync(model);
         }
 
         public async Task<List<OrderDto>> GetAllAsync(int id)

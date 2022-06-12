@@ -11,5 +11,6 @@ namespace ServiceLayer.Services.Interfaces
     {
         Task CreateAsync(OrderDto orderDto);
         Task<List<OrderDto>> GetAllAsync(int id);
+        Task Delete(OrderDto orderDto);
     }
 }

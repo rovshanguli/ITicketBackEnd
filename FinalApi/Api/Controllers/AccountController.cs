@@ -39,9 +39,10 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("ConfirmEmail")]
-        public async Task ConfirmEmail(string userId, string token)
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
         {
             await _service.ConfirmEmail(userId, token);
+            return Redirect("http://localhost:3000/");
         }
 
 

@@ -15,5 +15,6 @@ namespace ServiceLayer.Services.Interfaces
         Task<EventDto> GetByIdAsync(int id);
 
         Task<List<EventDto>> GetByCateId(int id);
+        Task<IEnumerable<EventDto>> GetAllNameAsync(string name);
     }
 }
