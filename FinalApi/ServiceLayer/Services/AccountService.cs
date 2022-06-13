@@ -35,7 +35,7 @@ namespace ServiceLayer.Services
 
             var roles = await _userManager.GetRolesAsync(user);
 
-            string token = _tokenService.GenerateJwtToken(user.UserName, (List<string>)roles);
+            string token = _tokenService.GenerateJwtToken(user.Email,user.UserName, (List<string>)roles);
 
             return token;
         }
@@ -50,6 +50,13 @@ namespace ServiceLayer.Services
         public async Task ConfirmEmail(string userId, string token)
         {
             await _emailService.ConfirmEmail(userId, token);
+        }
+
+        public async Task<UserDto> GetUserByEmailAsync(string email)
+        {
+            var appuser = await _userManager.FindByEmailAsync(email);
+            var user = _mapper.Map<UserDto>(appuser);
+            return user;
         }
     }
 }

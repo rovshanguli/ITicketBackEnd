@@ -8,5 +8,6 @@ namespace ServiceLayer.Services.Interfaces
         Task Register(RegisterDto registerDto);
         Task<string> Login(LoginDto loginDto);
         Task ConfirmEmail(string userId, string token);
+        Task<UserDto> GetUserByEmailAsync(string email);
     }
 }

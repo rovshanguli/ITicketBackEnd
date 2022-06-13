@@ -4,6 +4,6 @@ namespace ServiceLayer.Services.Interfaces
 {
     public interface ITokenService
     {
-        string GenerateJwtToken(string name, List<string> roles);
+        string GenerateJwtToken(string email,string name, List<string> roles);
     }
 }

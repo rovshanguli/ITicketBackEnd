@@ -15,6 +15,8 @@ namespace Api.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly UserManager<AppUser> _userManager;
         private readonly IEmailService _emailService;
+
+
         public AccountController(IAccountService service, IWebHostEnvironment env, UserManager<AppUser> userManager, IEmailService emailService)
         {
             _service = service;
@@ -51,6 +53,15 @@ namespace Api.Controllers
         public async Task<string> Login([FromBody] LoginDto loginDto)
         {
             return await _service.Login(loginDto);
+        }
+
+        [HttpGet]
+        [Route("GetUserById")]
+        public async Task<UserDto> GetUserById([FromRoute]string email)
+        {
+            var user = await _service.GetUserByEmailAsync(email);
+
+            return user;
         }
     }
 }
