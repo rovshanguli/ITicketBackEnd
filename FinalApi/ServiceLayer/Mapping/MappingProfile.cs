@@ -27,6 +27,7 @@ namespace ServiceLayer.Mapping
             CreateMap<Seans, SeansEditDto>().ReverseMap();
             CreateMap<AppUser, RegisterDto>().ReverseMap();
             CreateMap<Order, OrderDto>().ReverseMap();
+            CreateMap<UserDto, AppUser>().ReverseMap();
         }
     }
 }

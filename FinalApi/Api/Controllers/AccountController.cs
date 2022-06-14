@@ -56,8 +56,8 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        [Route("GetUserById")]
-        public async Task<UserDto> GetUserById([FromRoute]string email)
+        [Route("GetUserByEmail/{email}")]
+        public async Task<UserDto> GetUserByEmail([FromRoute]string email)
         {
             var user = await _service.GetUserByEmailAsync(email);
 
