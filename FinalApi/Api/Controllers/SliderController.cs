@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ServiceLayer.DTOs.Slider;
 using ServiceLayer.Services.Interfaces;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace Api.Controllers
 
         [HttpPost]
         [Route("Create")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([FromBody] SliderDto sliderDto)
         {
             await _service.CreateAsync(sliderDto);
@@ -23,6 +25,7 @@ namespace Api.Controllers
 
         [HttpDelete]
         [Route("Delete/{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete([FromRoute]int id)
         {
             await _service.DeleteAsync(id);
@@ -31,6 +34,7 @@ namespace Api.Controllers
         }
         [HttpPut]
         [Route("Update/{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] SliderEditDto slider)
         {
 
