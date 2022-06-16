@@ -5972,23 +5972,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\hp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Iticketback-end-iticket\\FinalApi\\RepositoryLayer\\RepositoryLayer.csproj",
       "projectName": "RepositoryLayer",
-      "projectPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\RepositoryLayer\\RepositoryLayer.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\RepositoryLayer\\obj\\",
+      "projectPath": "C:\\Users\\hp\\Desktop\\Iticketback-end-iticket\\FinalApi\\RepositoryLayer\\RepositoryLayer.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\Iticketback-end-iticket\\FinalApi\\RepositoryLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6003,8 +6003,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\FinalProjects\\ITicket\\ITicketBackEnd\\FinalApi\\DomainLayer\\DomainLayer.csproj"
+            "C:\\Users\\hp\\Desktop\\Iticketback-end-iticket\\FinalApi\\DomainLayer\\DomainLayer.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\Iticketback-end-iticket\\FinalApi\\DomainLayer\\DomainLayer.csproj"
             }
           }
         }
@@ -6049,7 +6049,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -44,7 +44,7 @@ namespace ServiceLayer.Services
         {
             var user = _mapper.Map<AppUser>(registerDto);
             await _userManager.CreateAsync(user, registerDto.Password);
-            await _userManager.AddToRoleAsync(user, "Admin");
+            await _userManager.AddToRoleAsync(user, "User");
          
         }
 

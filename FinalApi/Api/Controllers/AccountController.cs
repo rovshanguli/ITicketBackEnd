@@ -51,7 +51,7 @@ namespace Api.Controllers
         [HttpPost]
         [Route("Login")]
         public async Task<string> Login([FromBody] LoginDto loginDto)
-           {
+        {
             return await _service.Login(loginDto);
         }
 
@@ -64,8 +64,9 @@ namespace Api.Controllers
             if (user is null) throw new ArgumentNullException();
 
             string forgotpasswordtoken = await _userManager.GeneratePasswordResetTokenAsync(user);
-            string url = Url.Action(nameof(ResetPassword), "Account", new { email = user.Email, Id = user.Id, token = forgotpasswordtoken, }, Request.Scheme);
-            _emailService.ForgotPassword(user,url,forgotPassword);
+            //string url = Url.Action("http://localhost:3000/", "forgotpassword", new { email = user.Email, Id = user.Id, token = forgotpasswordtoken, }, Request.Scheme);
+            string url2 = "http://localhost:3000/forgotpassword/" + user.Email + "/" + forgotpasswordtoken ;
+            _emailService.ForgotPassword(user,url2,forgotPassword);
 
             return Ok();
         }

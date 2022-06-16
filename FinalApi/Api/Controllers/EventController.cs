@@ -24,7 +24,6 @@ namespace Api.Controllers
         }
         [HttpDelete]
         [Route("DeleteEvent/{id}")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete([FromRoute]int id)
         {
             await _service.DeleteAsync(id);
@@ -35,13 +34,15 @@ namespace Api.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] EventEditDto levent)
         {
+
+
             await _service.UpdateAsync(id, levent);
             return Ok();
         }
 
         [HttpGet]
         [Route("GetAllEvents")]
-        
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _service.GetAllAsync();
@@ -50,6 +51,7 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("GetById/{id}")]
+
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
             var result = await _service.GetByIdAsync(id);

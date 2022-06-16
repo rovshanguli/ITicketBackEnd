@@ -95,7 +95,7 @@ namespace ServiceLayer.Services
 
         }
 
-        public async void ForgotPassword(AppUser user,string url,ForgotPasswordDto forgotPassword)
+        public  void ForgotPassword(AppUser user,string url,ForgotPasswordDto forgotPassword)
         {
            
             var message = new MimeMessage();

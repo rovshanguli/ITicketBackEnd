@@ -15,7 +15,6 @@ namespace Api.Controllers
         }
         [HttpPost]
         [Route("CreateCategory")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([FromBody] CategoryDto categoryDto)
         {
             await _service.CreateAsync(categoryDto);
@@ -23,7 +22,6 @@ namespace Api.Controllers
         }
         [HttpDelete]
         [Route("DeleteCategory/{id}")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete([FromRoute]int id)
         {
             await _service.DeleteAsync(id);
@@ -32,7 +30,6 @@ namespace Api.Controllers
 
         [HttpPut]
         [Route("Update")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update([FromBody] CategoryEditDto category)
         {
             await _service.UpdateAsync(category);
@@ -40,6 +37,7 @@ namespace Api.Controllers
         }
         [HttpGet]
         [Route("GetAllCategories")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _service.GetAllAsync();

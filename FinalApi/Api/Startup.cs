@@ -75,7 +75,6 @@ namespace Api
                         ClockSkew = TimeSpan.Zero // remove delay of token when expire
                     };
                 });
-
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
@@ -87,6 +86,7 @@ namespace Api
             services.AddTransient<ITokenService, TokenService>();
             services.AddSwaggerGen(options =>
             {
+               
                 options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 {
                     Description = "Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
@@ -121,7 +121,6 @@ namespace Api
 
             app.UseAuthentication();
             app.UseAuthorization();
-            
 
             app.UseEndpoints(endpoints =>
             {
