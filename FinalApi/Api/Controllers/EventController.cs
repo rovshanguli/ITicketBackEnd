@@ -42,7 +42,6 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("GetAllEvents")]
-        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _service.GetAllAsync();

@@ -50,7 +50,6 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("GetAll")]
-        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _service.GetAllAsync();
