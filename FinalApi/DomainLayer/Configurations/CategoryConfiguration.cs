@@ -10,6 +10,8 @@ namespace DomainLayer.Configurations
         public void Configure(EntityTypeBuilder<Category> builder)
         {
             builder.Property(m => m.Name).IsRequired();
+
+
         }
     }
 }

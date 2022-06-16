@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServiceLayer.DTOs.Order
+namespace ServiceLayer.DTOs.AppUser
 {
-    public class OrderDto
+    public class ForgotPasswordDto
     {
-        public string SeatId { get; set; }
-        public int EventId { get; set; }
         public string Email { get; set; }
     }
 }

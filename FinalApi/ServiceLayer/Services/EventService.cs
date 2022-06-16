@@ -65,6 +65,7 @@ namespace ServiceLayer.Services
             var res = _mapper.Map<List<EventDto>>(model);
             return res;
         }
+
         public async Task<IEnumerable<EventDto>> GetAllNameAsync(string search)
         {
             return _mapper.Map<IEnumerable<EventDto>>(await _repository.FindAllAsync(m => m.Name.Contains(search)));

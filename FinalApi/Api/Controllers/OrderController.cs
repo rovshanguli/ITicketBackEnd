@@ -11,9 +11,11 @@ namespace Api.Controllers
     public class OrderController : BaseController
     {
         private readonly IOrderService _service;
-        public OrderController(IOrderService service)
+        private readonly IEmailService _emailService;
+        public OrderController(IOrderService service, IEmailService emailService)
         {
             _service = service;
+            _emailService = emailService;
         }
 
         [HttpPost]
@@ -21,6 +23,7 @@ namespace Api.Controllers
         public async Task<IActionResult> Create([FromBody] OrderDto orderDto)
         {
             await _service.CreateAsync(orderDto);
+             _emailService.OrderCreate(orderDto.Email);
             return Ok();
         }
 

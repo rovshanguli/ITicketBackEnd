@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ServiceLayer.DTOs.Event;
 using ServiceLayer.Services.Interfaces;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace Api.Controllers
 
         [HttpPost]
         [Route("CreateEvent")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([FromBody] EventCreateDto eventCreateDto)
         {
             await _service.CreateAsync(eventCreateDto);
@@ -31,14 +33,13 @@ namespace Api.Controllers
         [Route("UpdateEvent/{id}")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] EventEditDto levent)
         {
-
-
             await _service.UpdateAsync(id, levent);
             return Ok();
         }
 
         [HttpGet]
         [Route("GetAllEvents")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _service.GetAllAsync();
@@ -60,7 +61,6 @@ namespace Api.Controllers
             var result = await _service.GetByCateId(id);
             return Ok(result);
         }
-
         [HttpGet]
         [Route("GetAllByName/{txt}")]
         public async Task<IActionResult> GetAllByName([FromRoute] string txt)

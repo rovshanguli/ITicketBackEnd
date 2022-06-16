@@ -15,6 +15,7 @@ using ServiceLayer;
 using ServiceLayer.Mapping;
 using ServiceLayer.Services;
 using ServiceLayer.Services.Interfaces;
+using Swashbuckle.AspNetCore.Filters;
 using System;
 using System.Text;
 
@@ -74,6 +75,7 @@ namespace Api
                         ClockSkew = TimeSpan.Zero // remove delay of token when expire
                     };
                 });
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
@@ -83,9 +85,17 @@ namespace Api
             services.AddRepositoryLayer();
             services.AddServiceLayer();
             services.AddTransient<ITokenService, TokenService>();
-            services.AddSwaggerGen(c =>
+            services.AddSwaggerGen(options =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+                options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+                {
+                    Description = "Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
+                    In = ParameterLocation.Header,
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                options.OperationFilter<SecurityRequirementsOperationFilter>();
             });
         }
 
@@ -96,7 +106,7 @@ namespace Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "JWT_ApiIdentity v1"));
             }
 
             app.UseHttpsRedirection();
@@ -109,7 +119,9 @@ namespace Api
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {

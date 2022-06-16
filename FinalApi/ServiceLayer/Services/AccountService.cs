@@ -35,7 +35,7 @@ namespace ServiceLayer.Services
 
             var roles = await _userManager.GetRolesAsync(user);
 
-            string token = _tokenService.GenerateJwtToken(user.Email,user.UserName, (List<string>)roles);
+            string token = _tokenService.GenerateJwtToken(user.UserName, (List<string>)roles);
 
             return token;
         }
@@ -44,14 +44,15 @@ namespace ServiceLayer.Services
         {
             var user = _mapper.Map<AppUser>(registerDto);
             await _userManager.CreateAsync(user, registerDto.Password);
-            await _userManager.AddToRoleAsync(user, "SuperAdmin");
+            await _userManager.AddToRoleAsync(user, "Admin");
+         
         }
 
         public async Task ConfirmEmail(string userId, string token)
         {
             await _emailService.ConfirmEmail(userId, token);
-        }
 
+        }
         public async Task<UserDto> GetUserByEmailAsync(string email)
         {
             var appuser = await _userManager.FindByEmailAsync(email);

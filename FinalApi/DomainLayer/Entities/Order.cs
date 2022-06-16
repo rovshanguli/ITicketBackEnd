@@ -3,7 +3,7 @@ using System;
 
 namespace DomainLayer.Entities
 {
-    public class Order : BaseEntity
+    public class Order:BaseEntity
     {
         public Event Event { get; set; }
         public int EventId { get; set; }

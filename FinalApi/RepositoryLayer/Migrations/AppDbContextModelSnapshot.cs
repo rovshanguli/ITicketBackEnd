@@ -130,6 +130,7 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<byte[]>("DetailImage")
+                        .IsRequired()
                         .HasColumnType("varbinary(max)");
 
                     b.Property<int>("HallId")
@@ -200,8 +201,7 @@ namespace RepositoryLayer.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("EventId")
-                        .IsRequired()
+                    b.Property<int>("EventId")
                         .HasColumnType("int");
 
                     b.Property<string>("SeatId")

@@ -3,10 +3,20 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RepositoryLayer.Migrations
 {
-    public partial class OrderTablee : Migration
+    public partial class CreateOrderTable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.AlterColumn<byte[]>(
+                name: "DetailImage",
+                table: "Event",
+                type: "varbinary(max)",
+                nullable: false,
+                defaultValue: new byte[0],
+                oldClrType: typeof(byte[]),
+                oldType: "varbinary(max)",
+                oldNullable: true);
+
             migrationBuilder.CreateTable(
                 name: "Order",
                 columns: table => new
@@ -40,6 +50,14 @@ namespace RepositoryLayer.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Order");
+
+            migrationBuilder.AlterColumn<byte[]>(
+                name: "DetailImage",
+                table: "Event",
+                type: "varbinary(max)",
+                nullable: true,
+                oldClrType: typeof(byte[]),
+                oldType: "varbinary(max)");
         }
     }
 }

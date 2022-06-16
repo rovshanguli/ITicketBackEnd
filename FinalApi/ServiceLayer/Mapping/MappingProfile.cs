@@ -28,6 +28,7 @@ namespace ServiceLayer.Mapping
             CreateMap<AppUser, RegisterDto>().ReverseMap();
             CreateMap<Order, OrderDto>().ReverseMap();
             CreateMap<UserDto, AppUser>().ReverseMap();
+
         }
     }
 }

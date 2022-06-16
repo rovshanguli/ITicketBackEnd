@@ -8,6 +8,7 @@ namespace ServiceLayer.DTOs.Event
         public string Name { get; set; }
         public byte[] BackImage { get; set; }
         public byte[] Image { get; set; }
+        public byte[] DetailImage { get; set; }
         public DateTime Date { get; set; }
         public float Price { get; set; }
         public int CategoryId { get; set; }

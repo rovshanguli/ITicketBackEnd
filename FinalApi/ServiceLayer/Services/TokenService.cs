@@ -16,12 +16,11 @@ namespace ServiceLayer.Services
         {
             _configuration = configuration;
         }
-        public string GenerateJwtToken(string email,string username, List<string> roles)
+        public string GenerateJwtToken(string username, List<string> roles)
         {
             var claims = new List<Claim>
             {
             new Claim(JwtRegisteredClaimNames.Sub, username),
-            new Claim(JwtRegisteredClaimNames.Sub, email),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             new Claim(ClaimTypes.NameIdentifier, username)
             };
